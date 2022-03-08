@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin: 30px;
 }
 
 /* navigation links */
@@ -66,6 +67,11 @@ h1, h2 {
     background: url('../images/hero-image.webp') no-repeat center center;
 }
 
+#cover-text, #cover-text, h2 {
+    color: #fff;
+
+}
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -74,10 +80,7 @@ h1, h2 {
 
 }
 
-    #cover-text, #cover-text, h2 {
-        color: #fff;
-
-    }
+    
 
     /* animates zoom effect on loading page */
 
@@ -116,4 +119,32 @@ h1, h2 {
         right: 150px;
         
         position: absolute;
+}
+
+/* club ethos */
+
+#club-ethos {
+        height: 600px;
+}
+
+#left-about {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
+        background-color: blue;
+
+}
+
+#right-about {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+        background-color: silver;
+
+}
+
+#center-about {
+        width: 33%;
+        margin: 0 auto;
+        background-color: green;
 }
